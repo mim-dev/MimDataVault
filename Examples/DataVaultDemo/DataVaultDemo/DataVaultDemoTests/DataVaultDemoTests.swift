@@ -1,0 +1,20 @@
+//
+//  DataVaultDemoTests.swift
+//  DataVaultDemoTests
+//
+//  Copyright (c) 2025 Luther Stanton
+//
+//  This source code is licensed under the MIT license found in the
+//  LICENSE file in the root directory of this source tree.
+//
+
+import Testing
+@testable import DataVaultDemo
+
+struct DataVaultDemoTests {
+
+    @Test func example() async throws {
+        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    }
+
+}
