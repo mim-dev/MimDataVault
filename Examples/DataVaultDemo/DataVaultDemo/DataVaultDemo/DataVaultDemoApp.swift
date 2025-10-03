@@ -14,7 +14,7 @@ import SwiftUI
 struct DataVaultDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            DataDemoMain()
+            DataVaultDemoMainView()
         }
     }
 }

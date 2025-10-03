@@ -1,5 +1,5 @@
 //
-//  DataVault.swift
+//  Data-Extensions.swift
 //  MimDataVault
 //
 //  Copyright (c) 2025 Luther Stanton
@@ -7,9 +7,11 @@
 //  This source code is licensed under the MIT license found in the
 //  LICENSE file in the root directory of this source tree.
 //
-
+  
 import Foundation
 
-public class DataVault {
-    
+extension Data {
+    mutating func wipe() {
+       _ = withUnsafeMutableBytes { $0.initializeMemory(as: UInt8.self, repeating: 0) }
+    }
 }
